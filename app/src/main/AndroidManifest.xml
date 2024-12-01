@@ -26,6 +26,8 @@
 
         <activity android:name=".ImcActivity" />
 
+        <activity android:name=".ConversorActivity" />
+
     </application>
 
 </manifest>

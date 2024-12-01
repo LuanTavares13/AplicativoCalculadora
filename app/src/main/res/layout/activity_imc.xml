@@ -13,9 +13,9 @@
         android:textStyle="bold"
         android:textColor="@color/black"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp" />
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/text"/>
 
-    <!-- Peso -->
     <EditText
         android:id="@+id/input_weight"
         android:layout_width="match_parent"
@@ -28,7 +28,6 @@
         android:padding="10dp"
         android:textColor="@color/black"/>
 
-    <!-- Altura -->
     <EditText
         android:id="@+id/input_height"
         android:layout_width="match_parent"
@@ -39,7 +38,8 @@
         android:layout_below="@id/input_weight"
         android:layout_marginTop="20dp"
         android:padding="10dp"
-        android:textColor="@color/black"/>
+        android:textColor="@color/black"
+        android:fontFamily="@font/text"/>
 
     <!-- Botão para calcular -->
     <Button

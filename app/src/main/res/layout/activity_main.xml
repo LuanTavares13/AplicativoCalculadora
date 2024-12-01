@@ -9,12 +9,32 @@
     android:background="@color/green"
     android:padding="20dp">
 
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="calc.app"
+        android:textSize="60dp"
+        android:textStyle="bold"
+        android:textColor="@color/darkgreen"
+        android:shadowColor="@color/green"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="4"
+        android:letterSpacing="0"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/title"
+        />
+
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:gravity="center"
         android:padding="16dp">
+
 
         <Button
             android:id="@+id/btn_calculadora"
@@ -23,7 +43,9 @@
             android:backgroundTint="@color/darkgreen"
             android:padding="16dp"
             android:text="Calculadora"
-            android:textColor="@color/white"/>
+            android:textColor="@color/white"
+            android:fontFamily="@font/text"
+            android:textSize="15dp"/>
 
         <Button
             android:id="@+id/btn_imc"
@@ -33,7 +55,21 @@
             android:backgroundTint="@color/darkgreen"
             android:padding="16dp"
             android:text="Calculadora de IMC"
-            android:textColor="@color/white" />
+            android:textColor="@color/white"
+            android:fontFamily="@font/text"
+            android:textSize="15dp"/>
+
+        <Button
+            android:id="@+id/btn_conversor"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/darkgreen"
+            android:padding="16dp"
+            android:text="Conversor de Medidas"
+            android:textColor="@color/white"
+            android:fontFamily="@font/text"
+            android:textSize="15dp"/>
 
     </LinearLayout>
 

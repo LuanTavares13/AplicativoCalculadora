@@ -18,6 +18,8 @@ public class MainActivity extends AppCompatActivity {
 
         Button btnImc = findViewById(R.id.btn_imc);
 
+        Button btnConversor = findViewById(R.id.btn_conversor);
+
         btnCalculadora.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -30,6 +32,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, ImcActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        btnConversor.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ConversorActivity.class);
                 startActivity(intent);
             }
         });
