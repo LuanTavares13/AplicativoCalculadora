@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="orange">#f26c4f</color>
-    <color name="blue">#1b325f </color>
-    <color name="lightblue">#3a89c9</color>
     <color name="white">#FFFF</color>
     <color name="gray">#AAAA</color>
+    <color name="black">#000000</color>
+    <color name="olive">#e1edb9</color>
+    <color name="green">#c2cb93</color>
+    <color name="darkgreen">#444E1D</color>
 </resources>

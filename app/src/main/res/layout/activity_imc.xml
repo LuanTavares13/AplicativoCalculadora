@@ -1,7 +1,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/blue"
+    android:background="@color/green"
     android:padding="20dp">
 
     <TextView
@@ -11,7 +11,7 @@
         android:text="Calculadora de IMC"
         android:textSize="24dp"
         android:textStyle="bold"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/black"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp" />
 
@@ -20,26 +20,26 @@
         android:id="@+id/input_weight"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Digite seu peso (kg)"
+        android:hint="Digite seu peso (kg):"
         android:inputType="numberDecimal"
         android:background="@drawable/edit_text_background"
         android:layout_below="@id/title_text"
         android:layout_marginTop="30dp"
         android:padding="10dp"
-        android:textColor="@color/white"/>
+        android:textColor="@color/black"/>
 
     <!-- Altura -->
     <EditText
         android:id="@+id/input_height"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Digite sua altura (cm)"
+        android:hint="Digite sua altura (cm):"
         android:inputType="numberDecimal"
         android:background="@drawable/edit_text_background"
         android:layout_below="@id/input_weight"
         android:layout_marginTop="20dp"
         android:padding="10dp"
-        android:textColor="@color/white"/>
+        android:textColor="@color/black"/>
 
     <!-- Botão para calcular -->
     <Button
@@ -52,16 +52,16 @@
         android:layout_below="@id/input_height"
         android:layout_marginTop="30dp"
         android:padding="15dp"
-        android:textColor="@color/white"/>
+        android:textColor="@color/black"/>
 
     <!-- Resultado -->
     <TextView
         android:id="@+id/result_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Resultado aparecerá aqui"
+        android:text="Resultado aparecerá aqui:"
         android:textSize="18dp"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:gravity="center"
         android:layout_below="@id/calculate_button"
         android:layout_marginTop="30dp"/>

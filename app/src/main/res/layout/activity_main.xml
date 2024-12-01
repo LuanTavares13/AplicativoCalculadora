@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".CalculadoraActivity"
-    android:background="@color/lightblue"
+    android:background="@color/green"
     android:padding="20dp">
 
     <LinearLayout
@@ -20,20 +20,21 @@
             android:id="@+id/btn_calculadora"
             android:layout_width="150dp"
             android:layout_height="65dp"
-            android:backgroundTint="@color/blue"
+            android:backgroundTint="@color/darkgreen"
             android:padding="16dp"
             android:text="Calculadora"
-            android:textColor="@color/white" />
+            android:textColor="@color/white"/>
 
         <Button
             android:id="@+id/btn_imc"
             android:layout_width="wrap_content"
             android:layout_height="65dp"
             android:layout_marginTop="16dp"
-            android:backgroundTint="@color/blue"
+            android:backgroundTint="@color/darkgreen"
             android:padding="16dp"
             android:text="Calculadora de IMC"
             android:textColor="@color/white" />
+
     </LinearLayout>
 
 </RelativeLayout>
